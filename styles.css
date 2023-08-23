@@ -48,8 +48,8 @@ body {
   
 
 
-  .service {
-    color: #333;
+  .service:hover {
+    color: #9e2121;
   }
   
   .gmail {
