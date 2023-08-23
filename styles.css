@@ -43,23 +43,10 @@ body {
     height: 30px;
     margin-right: 5px;
     background-size: cover;
+    object-fit: contain;
   }
   
-  /* Gmail */
-  .gmail .icon {
-    background-image: url('/img/Gmail.png');
-  }
-  
-  /* Google Drive */
-  .drive .icon {
-    background-image: url('/img/drive.png');
-  }
-  
-  /* Google Photos */
-  .photos .icon {
-    background-image: url('/img/photos.png');
-  }
-  
+
 
   .service {
     color: #333;
