@@ -1,0 +1,82 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+  }
+  
+  .menu {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 300px;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  .service {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 80%;
+    padding: 15px;
+    color: #333;
+    transition: background-color 0.3s, transform 0.3s, box-shadow 0.3s;
+    border-radius: 8px;
+    margin: 10px;
+    text-decoration: none;
+  }
+  
+  .service:hover {
+    background-color: #f8f8f8;
+    transform: translateY(-3px);
+    box-shadow: 0px 6px 15px rgba(0, 0, 0, 0.2);
+  }
+  
+  .icon {
+    width: 30px;
+    height: 30px;
+    margin-right: 10px;
+    background-size: cover;
+  }
+  
+  /* Gmail */
+  .gmail .icon {
+    background-image: url('/img/Gmail.png');
+  }
+  
+  /* Google Drive */
+  .drive .icon {
+    background-image: url('/img/drive.png');
+  }
+  
+  /* Google Photos */
+  .photos .icon {
+    background-image: url('/img/photos.png');
+  }
+  
+
+  .service {
+    color: #333;
+  }
+  
+  .gmail {
+    background-color: #ffffff;
+    text-decoration: none;
+  }
+  
+  .drive {
+    background-color: #ffffff;
+  }
+  
+  .photos {
+    background-color: #ffffff;
+  }
+
+ 
+  
