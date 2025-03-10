@@ -1,105 +1,108 @@
 body {
-    margin: 0;
-    padding: 0;
-    font-family: Arial, sans-serif;
-    background-color: #f0f0f0;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 100vh;
-  }
-  
-  .menu {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    width: 250px;
-    background-color: #fff;
-    border-radius: 10px;
-    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
-  }
-  
-  .Service_Gmail {
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    width: 75%;
-    padding: 15px;
-    color: #333;
-    transition: background-color 0.3s, transform 0.3s, box-shadow 0.3s;
-    border-radius: 8px;
-    margin: 10px;
-    text-decoration: none;
-  }
-  .Service_Drive{
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    width: 75%;
-    padding: 15px;
-    color: #333;
-    transition: background-color 0.3s, transform 0.3s, box-shadow 0.3s;
-    border-radius: 8px;
-    margin: 10px;
-    text-decoration: none;
-  }
-  .Service_Photos {
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    width: 75%;
-    padding: 15px;
-    color: #333;
-    transition: background-color 0.3s, transform 0.3s, box-shadow 0.3s;
-    border-radius: 8px;
-    margin: 10px;
-    text-decoration: none;
-  }
-  .Service_Docs{
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    width: 75%;
-    padding: 15px;
-    color: #333;
-    transition: background-color 0.3s, transform 0.3s, box-shadow 0.3s;
-    border-radius: 8px;
-    margin: 10px;
-    text-decoration: none;
-  }
-  
-  .Service_Gmail:hover {
-    background-color: #f8f8f8;
-    transform: translateY(-3px);
-    box-shadow: 0px 6px 15px rgba(0, 0, 0, 0.2);
-    color: #9e2121;
-  }
-  .Service_Drive:hover {
-    background-color: #f8f8f8;
-    transform: translateY(-3px);
-    box-shadow: 0px 6px 15px rgba(0, 0, 0, 0.2);
-    color: #9e2121;
-  }
-  .Service_Photos:hover {
-    background-color: #f8f8f8;
-    transform: translateY(-3px);
-    box-shadow: 0px 6px 15px rgba(0, 0, 0, 0.2);
-    color: #9e2121;
-  }
-  .Service_Docs:hover {
-    background-color: #f8f8f8;
-    transform: translateY(-3px);
-    box-shadow: 0px 6px 15px rgba(0, 0, 0, 0.2);
-    color: #9e2121;
-  }
-  
-  .icon {
-    width: 30px;
-    height: 30px;
-    margin-right: 5px;
-    background-size: cover;
-    object-fit: contain;
-  }
+  margin: 0;
+  padding: 0;
+  font-family: Arial, sans-serif;
+  background-color: #f0f0f0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
 
- 
-  
+.menu {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 250px;
+  background-color: #fff;
+  border-radius: 10px;
+  box-shadow: 0 4px 10px rgb(0 0 0 / 10%);
+}
+
+.service-gmail {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 75%;
+  padding: 15px;
+  color: #333;
+  transition: background-color 0.3s, transform 0.3s, box-shadow 0.3s;
+  border-radius: 8px;
+  margin: 10px;
+  text-decoration: none;
+}
+
+.service-drive {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 75%;
+  padding: 15px;
+  color: #333;
+  transition: background-color 0.3s, transform 0.3s, box-shadow 0.3s;
+  border-radius: 8px;
+  margin: 10px;
+  text-decoration: none;
+}
+
+.service-photos {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 75%;
+  padding: 15px;
+  color: #333;
+  transition: background-color 0.3s, transform 0.3s, box-shadow 0.3s;
+  border-radius: 8px;
+  margin: 10px;
+  text-decoration: none;
+}
+
+.service-docs {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 75%;
+  padding: 15px;
+  color: #333;
+  transition: background-color 0.3s, transform 0.3s, box-shadow 0.3s;
+  border-radius: 8px;
+  margin: 10px;
+  text-decoration: none;
+}
+
+.service-gmail:hover {
+  background-color: #f8f8f8;
+  transform: translateY(-3px);
+  box-shadow: 0 6px 15px rgb(0 0 0 / 20%);
+  color: #9e2121;
+}
+
+.service-drive:hover {
+  background-color: #f8f8f8;
+  transform: translateY(-3px);
+  box-shadow: 0 6px 15px rgb(0 0 0 / 20%);
+  color: #9e2121;
+}
+
+.service-photos:hover {
+  background-color: #f8f8f8;
+  transform: translateY(-3px);
+  box-shadow: 0 6px 15px rgb(0 0 0 / 20%);
+  color: #9e2121;
+}
+
+.service-docs:hover {
+  background-color: #f8f8f8;
+  transform: translateY(-3px);
+  box-shadow: 0 6px 15px rgb(0 0 0 / 20%);
+  color: #9e2121;
+}
+
+.icon {
+  width: 30px;
+  height: 30px;
+  margin-right: 5px;
+  background-size: cover;
+  object-fit: contain;
+}
